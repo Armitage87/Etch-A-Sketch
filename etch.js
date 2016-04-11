@@ -21,7 +21,7 @@ $(document).ready (function() {
 		$('.square').unbind();
 		$('.square').mouseenter (function() {
 			$(this).css("background", "red");
-		});
+		}); 
 	});
 	
 	$('.blue').click(function() {
